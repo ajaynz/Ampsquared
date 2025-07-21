@@ -183,7 +183,7 @@ Share Amp conversation threads across team collaboration tools for seamless know
 
 ### **End-to-End Test Generation**
 Automate comprehensive test coverage from user stories.
-> **Tip:** Remember to provide specific instructions to write tests in your AGENT.md file. For reference see [Testing Principles](AGENT.md_Examples/AGENT.md#testing-principles).
+> **Tip:** Remember to provide specific instructions to write tests in your AGENT.md file. For reference see [Testing Principles](../AGENT.md_Examples/AGENT.md#testing-principles).
 
 **Example Workflow:**
 > User: "Develop Playwright test scripts for the user registration flow, covering both successful registrations and validation error scenarios."
