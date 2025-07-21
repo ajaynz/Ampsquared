@@ -1,6 +1,6 @@
 # Amp AI Assistant - Common Use Cases & Workflows
 
-Welcome to the comprehensive guide for Amp, your intelligent AI coding assistant. This document outlines proven workflows and example prompts to help you maximise productivity across development, maintenance, and collaboration tasks.
+This document outlines workflows and example prompts to help guide you through your Amp eval.
 
 ## Table of Contents
 
