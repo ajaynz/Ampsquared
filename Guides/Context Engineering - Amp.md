@@ -116,13 +116,9 @@ Successfully implementing context engineering in Amp requires following proven s
 
 Traditional AI models face limitations in how much context they can process simultaneously. However, Amp addresses this challenge through several innovative approaches:
 
-**Subagent Architecture**: When tasks require extensive context, Amp can launch subagents that focus on specific aspects of the problem. This distributed approach allows the system to handle complex tasks that would overwhelm a single agent's context window.
-
-This also means that even novice users can get started with agentic tools and don't need to be experts at context window management.
-
-**Compacting Threads**: When Amp's context window approaches its limits during extended workflows, users can compact the thread. This allows agents to continue working on complex, multi-step tasks without losing critical context.
-
-**Forking Threads**: Create new threads from existing threads, preserving previous thread history and context.
+- **Subagent Architecture**: When tasks require extensive context, Amp can launch subagents that focus on specific aspects of the problem. This distributed approach allows the system to handle complex tasks that would overwhelm a single agent's context window. This also means that even novice users can get started with agentic tools and don't need to be experts at context window management.
+- **Compacting Threads**: When Amp's context window approaches its limits during extended workflows, users can compact the thread. This allows agents to continue working on complex, multi-step tasks without losing critical context.
+- **Forking Threads**: Create new threads from existing threads, preserving previous thread history and context.
 
 ## Reflection
 
