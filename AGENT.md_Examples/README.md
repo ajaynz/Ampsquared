@@ -42,7 +42,7 @@ These examples are provided to:
 
 ## Usage
 
-You can copy and adapt these examples for your own agents. If you're working with Amp, place your `AGENT.md` file in the base directory for your workspace. For other config options see [Amp manual](https://ampcode.com/manual#AGENT.md)
+You can copy and adapt these examples for your own agents. If you're working with Amp, place your `AGENT.md` file in the base directory for your workspace and copy/paste content of any of the AGENT.md files in this repo. For other config options see [Amp manual](https://ampcode.com/manual#AGENT.md)
 
 <sub>Note: `AGENT.md` is a part of an emerging pattern for agent configuration. For more info see [AGENT.md](https://ampcode.com/AGENT.md)  
 
