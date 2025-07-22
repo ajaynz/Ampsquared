@@ -1,4 +1,4 @@
-# Amp AI Assistant - Common Use Cases & Workflows
+# Amp - Common Use Cases & Workflows
 
 This document outlines workflows and example prompts to help guide you through your Amp eval.
 
