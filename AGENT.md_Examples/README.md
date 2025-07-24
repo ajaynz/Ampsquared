@@ -1,4 +1,4 @@
-# Purpose
+## Purpose
 
 These examples are provided to:
 
@@ -6,22 +6,22 @@ These examples are provided to:
 - Demonstrate best practices for defining AI agent behavior and persona  
 - Serve as inspiration for developing custom agents with Amp  
 
-## Usage
+### Usage
 
 To start, please review [AGENT.md Best Practices Guide](../Guides/AGENT.md_Best_Practices.md)
 
 
 You can copy and adapt these examples for your own agents. If you're working with Amp, place your `AGENT.md` file in the base directory for your workspace and copy/paste content of any of the AGENT.md files in this repo. For other config options see [Amp manual](https://ampcode.com/manual#AGENT.md)
 
-# AGENT.md Examples
+## AGENT.md Examples
 
 This folder contains example `AGENT.md` files used for defining agent personas and behaviors in the Ampsquared project. These examples serve as templates or references for creating and customizing AI agents.
 
 
-### [AGENT.md](AGENT.md)
+#### [AGENT.md](AGENT.md)
 This file contains a general-purpose example of an `AGENT.md` document. It defines a foundational agent with basic configuration, role, tone, and behavioral guidelines. This can be used as a starting point for building more specific agents.
 
-### [AGENT.md-AmpPersonas](AGENT.md-AmpPersonas)
+#### [AGENT.md-AmpPersonas](AGENT.md-AmpPersonas)
 A persona system for Amp that enables specialised agents for different development tasks.
 Based on feedback from teams trialling Amp, this system addresses the need for specialised agents focused on specific tasks like testing, frontend development, and more.
 
