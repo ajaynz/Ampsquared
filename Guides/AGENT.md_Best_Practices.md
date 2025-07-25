@@ -66,7 +66,7 @@ Build & Deploy
 - **Tooling**: ESLint, Prettier, Vitest/Jest, Playwright, Docker, pnpm
 
 
-## Code Style & Conventions
+### Code Style & Conventions
 
 | Category         | Guidelines                                                                 |
 |------------------|---------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ Build & Deploy
 | **TypeScript**   | Use `strict` mode, no `any`, prefer `unknown` over `any`, define shared types in `@/types/` |
 
 
-## Testing Guidelines
+### Testing Guidelines
 
 - **Frameworks**: Unit tests with Vitest or Jest; integration + E2E with Playwright or Supertest.
 - **Test Structure**: Mirror source directory; test files next to source or in `/tests`.
@@ -86,7 +86,7 @@ Build & Deploy
 - **Coverage**: Maintain ≥ 80% coverage; no PR merged without tests unless explicitly approved.
 
 
-## Architecture & Patterns
+### Architecture & Patterns
 
 - **Design Patterns**: Feature-based folder structure, dependency injection via service layers.
 - **State Management**: Use Zustand or Redux Toolkit; colocate state with components when possible.
@@ -95,14 +95,14 @@ Build & Deploy
 - **Database Patterns**: Prisma migrations in `db/migrations/`; seed scripts in `db/seed.ts`
 
 
-## Security Considerations
+### Security Considerations
 
 - **Authentication**: JWTs via `Authorization` header; use HTTP-only cookies for frontend.
 - **Input Validation**: All inputs validated with Zod or Joi before DB access.
 - **Env Variables**: Stored in `.env`, accessed via `process.env`; secrets never committed.
 - **Dependencies**: Use `pnpm audit`; dependabot alerts must be addressed within 3 days.
 
-## Others Considerations
+### Others Considerations
 - **MCP Tooling guidelines**: Specific tool usage via MCP for integration with third party services.
 - **SDLC Guideline**: Guidelines on which tools are used in SDLC.
 - **Dev Practices**: How your team works and is organised, to make your code more maintanable.
