@@ -1,11 +1,3 @@
-## GitHub Workflow
-
-### Issue & Pull Request Management
-- Always use GitHub MCP (Managed Code Profiles) for interacting with the GitHub repository
-- Use GitHub MCP for fetching issues, creating pull requests, commenting, and any other GitHub operations
-- Auth tokens are already associated with the GitHub MCP functions - do not use separate auth tokens
-- Never use curl commands for GitHub API operations
-- For operations like fetching issues, commit changes, or creating pull requests, rely exclusively on the GitHub MCP tools
 
 ## Development Guidelines
 
@@ -87,6 +79,29 @@ const getMockPaymentPostPaymentRequest = (
 - These rules apply to test code as well as production code
 
 ### Development Workflow
+
+#### Task/Issue source
+- References to project Issues starting with GTM-* are from linear, access these via the Linear MCP server
+
+
+#### Pull Request Guidelines
+
+When creating a pull request, follow these guidelines
+
+- Create a new branch for each user story
+- Name the branch with the user story number and a brief description
+- Include a link to the user story in the PR description
+- Create a PR using the GitHub Cli using the gh commands `gh pr create` 
+- When create a GitHub PR be sure to include all the items below - to ensure it's formatted correctly use the flag --body-file with a temp pr-description.md file that isn't commited.
+- Reference any relevant issues in the PR description 
+- Include a high level summary of the changes made in the PR description for a product manager to understand
+- When pushing a branch in GitHub always push to origin and never create a Fork
+- Include another summary of the changes made in the PR description for a developer to understand (Technical Notes)
+- Include a mermaid digram explain how the new features work in the PR description. This is to help a human quickly get up to speed as to what was changed and why. This is very important.
+- Ensure all CI checks pass before merging (unit tests)
+- Outline if you added any additional unit tests in the description and include the names of the new tests added and number of tests removed eg (Added 2 tests, removed 1 test) with a summary of the tests added and removed.
+- Include Human testing instructions for a human to review with URLS, eg visit / , perform action, expected 1. toggle to do XYZ
+- No need to include screenshots in the PR
 
 #### TDD Process - THE FUNDAMENTAL PRACTICE
 **CRITICAL**: TDD is not optional. Every feature, every bug fix, every change MUST follow this process:
